@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8424DA141EC0872A001E3BAE /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8424DA131EC0872A001E3BAE /* SecondViewController.m */; };
 		FAE0F8E11EC07B4200AA8F1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0F8E01EC07B4200AA8F1B /* main.m */; };
 		FAE0F8E41EC07B4200AA8F1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0F8E31EC07B4200AA8F1B /* AppDelegate.m */; };
 		FAE0F8E71EC07B4200AA8F1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAE0F8E61EC07B4200AA8F1B /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8424DA121EC0872A001E3BAE /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8424DA131EC0872A001E3BAE /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		FAE0F8DC1EC07B4200AA8F1B /* NewGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE0F8E01EC07B4200AA8F1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FAE0F8E21EC07B4200AA8F1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +45,8 @@
 		FAE0F8D31EC07B4000AA8F1B = {
 			isa = PBXGroup;
 			children = (
+				8424DA121EC0872A001E3BAE /* SecondViewController.h */,
+				8424DA131EC0872A001E3BAE /* SecondViewController.m */,
 				FAE0F8DE1EC07B4200AA8F1B /* NewGit */,
 				FAE0F8DD1EC07B4200AA8F1B /* Products */,
 			);
@@ -110,6 +115,7 @@
 				TargetAttributes = {
 					FAE0F8DB1EC07B4000AA8F1B = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -150,6 +156,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8424DA141EC0872A001E3BAE /* SecondViewController.m in Sources */,
 				FAE0F8E71EC07B4200AA8F1B /* ViewController.m in Sources */,
 				FAE0F8E41EC07B4200AA8F1B /* AppDelegate.m in Sources */,
 				FAE0F8E11EC07B4200AA8F1B /* main.m in Sources */,
@@ -270,10 +277,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NewGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Task.NewGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -281,10 +291,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = NewGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Task.NewGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -307,6 +319,7 @@
 				FAE0F8F51EC07B4200AA8F1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
