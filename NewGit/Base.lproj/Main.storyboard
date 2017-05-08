@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="1vn-y0-LND">
-                                <frame key="frameInset" minX="37" minY="115" width="301" height="232"/>
+                                <frame key="frameInset" minX="37" minY="115" width="301" height="295"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.087938347629999997" green="0.97555624939999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" red="0.087938347629999997" green="0.97555624939999996" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
